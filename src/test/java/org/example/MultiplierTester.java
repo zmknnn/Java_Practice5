@@ -21,6 +21,7 @@ public class MultiplierTester {
         assertEquals(6, multiplier.multiply(2, 3));
     }
 
+
     @Tag("fast")
     @DisplayName("Параметризований тест з 1 параметром(параметри статичні)")
     @ParameterizedTest
